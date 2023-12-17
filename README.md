@@ -1,34 +1,90 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NextJS LinkedIn Clone
 
-## Getting Started
+<img src="https://github.com/Shaban-Eissa/NextJS-Linkedin-Clone/assets/49924090/bb0bb239-1aa1-4997-9ee9-6d1303ccec9a" width="400" height="100" />
 
-First, run the development server:
+A clone of the LinkedIn website built using Next.js, React, and MongoDB. This project aims to replicate the core features of LinkedIn, providing a responsive and dynamic web application.
+
+
+## Table of Contents
+
+- [Features](#features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Technologies](#technologies)
+- [Contributing](#contributing)
+
+
+## Features
+
+- **User Authentication:** log in, and log out securely with NextAuth.
+- **Feed:** Post creation and there is delete feature to delete post, and interact with others' posts in a real-time activity feed.
+
+
+## Demo
+
+<img src="https://github.com/Shaban-Eissa/NextJS-Linkedin-Clone/assets/49924090/3eb599a3-c8d3-4e40-bb99-7cbde824e92b" width="900" height="380" />
+
+Check out the live demo 
+
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Shaban-Eissa/NextJS-Linkedin-Clone.git
+cd NextJS-Linkedin-Clone
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Set up MongoDB:
+    
+     Install and set up MongoDB. Replace the placeholders in the application code with your MongoDB connection details.
+  
+4. Environment Variables
+     Setting Environment Variables
+      For local development, create a `.env` file in the root of your project and add the following:
+
+      ```env
+      GOOGLE_CLIENT_ID=your_google_client_id
+      GOOGLE_CLIENT_SECRET=your_google_client_secret
+      NEXTAUTH_URL=http://localhost:3000
+      JWT_SECRET=your_jwt_secret
+      MONGODB_URI=your_mongodb_uri
+      MONGODB_DB=your_mongodb_db
+      NEWS_API_KEY=your_news_api_key
+      `
+5. Run the application:
+    
 
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit `http://localhost:3000` in your browser to see the app.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+## Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js:** React framework for building server-rendered React applications.
+- **React:** JavaScript library for building user interfaces.
+- **Firebase:** Backend services for authentication, database, and hosting.
+- **Tailwind CSS:** Utility-first CSS framework for styling.
+- **Framer Motion:** Animation library for React to create smooth and expressive UI animations.
+- **MongoDB:** A NoSQL database for storing application data.
+- **NextAuth:** Authentication library for Next.js applications.
+- **Recoil:** State management library for managing global state in React applications.
+- **Material-UI (MUI):** React components for building a Material Design-based user interface.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Contributions are welcome! Please feel free to open issues or submit pull requests.
