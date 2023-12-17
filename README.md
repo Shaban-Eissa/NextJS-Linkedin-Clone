@@ -75,7 +75,6 @@ Visit `http://localhost:3000` in your browser to see the app.
 
 - **Next.js:** React framework for building server-rendered React applications.
 - **React:** JavaScript library for building user interfaces.
-- **Firebase:** Backend services for authentication, database, and hosting.
 - **Tailwind CSS:** Utility-first CSS framework for styling.
 - **Framer Motion:** Animation library for React to create smooth and expressive UI animations.
 - **MongoDB:** A NoSQL database for storing application data.
