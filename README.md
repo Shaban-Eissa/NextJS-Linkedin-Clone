@@ -24,7 +24,7 @@ A clone of the LinkedIn website built using Next.js, React, and MongoDB. This pr
 
 <img src="https://github.com/Shaban-Eissa/NextJS-Linkedin-Clone/assets/49924090/3eb599a3-c8d3-4e40-bb99-7cbde824e92b" width="900" height="380" />
 
-Check out the live demo 
+Check out the live demo https://nextjs-linkedin-clone-pi.vercel.app
 
 
 ## Installation
