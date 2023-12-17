@@ -58,7 +58,7 @@ npm install
       MONGODB_URI=your_mongodb_uri
       MONGODB_DB=your_mongodb_db
       NEWS_API_KEY=your_news_api_key
-      `
+      
 5. Run the application:
     
 
